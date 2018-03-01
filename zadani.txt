@@ -1,0 +1,21 @@
+Implementujte jednoduchou střílecí hru alespoň jednoho hráče proti počítači.
+
+Hra musí splňovat následující funkcionality:
+
+Objekty, které je možné zničit (nepřátelské jednotky, statické barikády)
+Pohybovat s hráčem (chůze panáčka, let vesmírné lodi, páčka na odrážení míčků)
+Po zničení objektu s určitou pravděpodobností zůstane bonus, implementujte několik různých bonusů (munice, rychlejší nabíjení,...)
+Implementujte jednoduchý "fyzikální" model (setrvačnost lodi, gravitace, odrážení, nabíjení zbrani,...)
+Implementujte načítání (generátoru) mapy ze souboru a ukládání nejlepších skóre do souboru.
+Kde lze využít polymorfismus? (doporučené)
+
+Rozdělení objektů: (ne)pohyblivý, hráč vs. nepřítel
+Různé bonusy: munice, silnější zbraně, zdvojení zbraní, rychlejší přebíjení,...
+Uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), ...
+Další informace
+
+Obecné informace, požadavky, ...
+https://cs.wikipedia.org/wiki/Arkanoid
+https://www.arcade-history.com/?n=ace-invaders&page=detail&id=115810
+https://en.wikipedia.org/wiki/Asteroids_(video_game)
+Mail: D. Bernhauer
